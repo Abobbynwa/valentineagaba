@@ -41,3 +41,12 @@ a:hover {
 .project {
   margin-bottom: 20px;
 }
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
