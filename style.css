@@ -34,12 +34,56 @@ a {
   color: #007acc;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
+/* 🔹 Project Cards */
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-left: 4px solid #007acc;
+  background: #fafafa;
+  border-radius: 6px;
 }
+
+/* 🔹 Button for CV Download */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #007acc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* 🔹 Link Section Styling */
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.links a {
+  color: #007acc;
+  font-weight: bold;
+}
+
+/* 🔹 Skill list polish */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
 
 
