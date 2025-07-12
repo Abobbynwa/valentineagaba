@@ -6,12 +6,6 @@ body {
   color: #333;
   line-height: 1.6;
 }
-.cert-badge {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 header {
   background: #222;
@@ -91,6 +85,15 @@ ul li {
   margin-bottom: 8px;
 }
 
+/* 🔹 Certification Badge Styling */
+.cert-badge {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
