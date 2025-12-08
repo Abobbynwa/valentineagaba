@@ -55,16 +55,18 @@ ul {
 ul li {
   margin-bottom: 8px;
 }
+
+/* Cybersecurity Projects Styling */
 #cybersecurity-projects .project {
   background: #f9f9ff;
-  border-left: 5px solid #ff5722; /* different accent color for cybersecurity */
+  border-left: 5px solid #ff5722;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
 #cybersecurity-projects h3 {
-  color: #ff5722; /* matches accent color */
+  color: #ff5722;
 }
 
 #cybersecurity-projects ul {
@@ -83,16 +85,18 @@ ul li {
 #cybersecurity-projects a:hover {
   text-decoration: underline;
 }
+
+/* Cyber Labs */
 #cyber-labs .project {
   background: #eef7f9;
-  border-left: 5px solid #4caf50; /* accent color for labs */
+  border-left: 5px solid #4caf50;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
 #cyber-labs h3 {
-  color: #4caf50; /* matches accent color */
+  color: #4caf50;
 }
 
 #cyber-labs ul {
@@ -106,6 +110,7 @@ ul li {
   font-style: italic;
 }
 
+/* Global Project Card */
 .project {
   margin-bottom: 25px;
   padding: 15px;
@@ -114,6 +119,7 @@ ul li {
   border-radius: 6px;
 }
 
+/* Links */
 a {
   color: var(--primary);
   text-decoration: none;
@@ -123,6 +129,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 10px 15px;
@@ -137,6 +144,7 @@ a:hover {
   background: #005fa3;
 }
 
+/* Contact Links */
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -154,6 +162,7 @@ a:hover {
   border-bottom: 1px solid var(--primary);
 }
 
+/* Certification Badges */
 .cert-badge {
   display: flex;
   flex-wrap: wrap;
